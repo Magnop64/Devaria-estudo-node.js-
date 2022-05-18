@@ -4,7 +4,7 @@ const readLine = require('readline').createInterface({
 });
 
 console.log('aula de operadores logicos e estruturas de seleção.')
-console.log('vamos verificar idade e habilitação e se seu nome esta na lista.')
+console.log('vamos verificar idade e habilitação e se seu nome está na lista.')
 
 readLine.question('Qual o ano de nascimento?', ano =>{
     if(ano > 2004){
